@@ -101,6 +101,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * H2H - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
     * Manager Styles - Some managers have styles, e.g Postocoglou's high line, Artetas 25/26 defense. They have a system. Problem is, systems change over time and also against opponent. E.g in 22/23 Arteta played very attacking football, but in 24/25 and 25/26 he took it to a defensive extreme. So styles may change over time too. Maybe one should infer style from a rolling window and conditioned on opponent strength. This is tricky, but links manager to style factor.
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
+    * Team Fatigue - Team level fatigue from tight schedules/low rotation etc. Links to injury/unavailability factors.
+    * Player Level Fatigue - Idea being a drop in performance of players due to burnout can impact results. Links to player selection, injury/unavailability factors.
     * Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
     * Example - Need to find examples where teams bust a gut early in the season, and towards the tail end, they collapse (e.g Arteta & Klopp Arsenal April collapse). Usually accompanied by a congested schedule and injury pileup.
     * Feature - Fixture count, distance ran, pressing intensity, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs. Kind of kicks in the last months of a season with a drastic collapse. Hence the birth of the April collapse.
