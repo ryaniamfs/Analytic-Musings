@@ -90,6 +90,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Variant - Weighing z-scores by position group (attackers, midfielders, defenders, GK). Relative performance to your position group instead of your squad.
     * Variant - Weighing journal vs algo. How much weight do you put in a journalist view vs an algo view? Stat padders might get artificially boosted by algos (see Gyokeres in Arsenal Atletico UCL Semi 1st leg 25/26, rated highly by BBC/Sky and fans but poorly by the algorithm. Not good.)
     * Variant - Theoretical ideal lineup construction algorithm. Player position placement matters too! Sometimes fans complain when the manager plays the player in the wrong position. (e.g when Zubimendi was failing, Arteta caved in to what us fans had been crying out for and shifted MLS from LB to CM. This led us to a title win and UCL final. So in other words, Skelly playing in CM boosted his player performance, his natural position)
+    * Out-of-Position Index - Penalize managers for playing players out of position. This means we need to detect how much to penalize per player, and have a view on how well each player performs per position usually. And out-of-sample (aka new tryout matches) need to be weighed! Say a player is played OOP for the first time this season. How do we price that?
 * **Availability/injury feature**
     * Idea - In theory, injuries to key players can damage outcomes. Afcon is basically an injury.
     * Idea - Should be captured in player selection, but what if the ratings price a key player lower?
