@@ -110,7 +110,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
-The node is an actor. Actors perform actions, and the effects cause other actors to perform actions. You can connect actors to each other via their actions (edges).
+The node is an actor or an action. Actors perform actions, and the effects cause other actors to perform actions. You identify and categorize actors and actions, and then connect them to each other.
 
 A grouping of nodes or actions by actors is called a situation or subplot. We can then break down a situation hierarchically over time into subplots or subsituations.
 
