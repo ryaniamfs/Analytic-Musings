@@ -124,7 +124,7 @@ This can be modelled via the **action framework**. For a situation, we identify 
 
 * **Situations/subplots** - Categorize the situation.
 * **Actors(s)** - A group of people effectively. Single person = singleton group. 
-* **Actions** - Non-precise visualisation. Context > **action** > reaction. Frame of reference.
+* **Actions** - Non-precise visualisation. Context > action > reaction. Frame of reference. Quantify via effects.
 * **Motivation** - Understand why or the motivation behind this action being performed by this actor.
 
 **Understanding the Situation** - Basically, holding a mental model of all the actors in your head, simultaneously, performing actions and interacting in time and space. This is the hardest thing to do.
