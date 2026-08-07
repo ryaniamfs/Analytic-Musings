@@ -123,11 +123,9 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 This can be modelled via the **action framework**. For a situation, we identify the actors as nodes, then connect them together via actions and reactions.
 
 * **Situations/subplots** - Categorize the situation.
-* **Actors(s)** - Categorize the actors by interests/motivation/action. Who are they?
-* **Action/Effects(s)** - Use non precise visualisation (see below) to understand the actions.
-* **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
-* **Reaction(s)** - Anchor to who will react to this and what they will do
-
+* **Actors(s)** - A group of people effectively. Single person = singleton group. 
+* **Actions** - Use non precise visualisation (see below) to understand the actions. Context > **action** > reaction. Depending on frame of reference.
+* **Motivation** - Understand why or the motivation behind this action being performed by this actor.
 
 **Understanding the Situation** - Basically, holding a mental model of all the actors in your head, simultaneously, performing actions and interacting in time and space. This is the hardest thing to do.
 
