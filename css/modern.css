@@ -48,7 +48,7 @@
   background: var(--am-bg);
   color: var(--am-fg);
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
   text-align: left;
 }
@@ -56,20 +56,20 @@
 [data-layout="modern"] html,
 html:has(body[data-layout="modern"]) {
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   background: var(--am-bg);
 }
 
 /* Beat Poole/Hyde html font-size media bumps */
 @media (min-width: 38em) {
-  html:has(body[data-layout="modern"]) { font-size: 14px; }
+  html:has(body[data-layout="modern"]) { font-size: 15px; }
 }
 @media (min-width: 48em) {
-  html:has(body[data-layout="modern"]) { font-size: 14px; }
+  html:has(body[data-layout="modern"]) { font-size: 15px; }
 }
 @media (min-width: 58em) {
-  html:has(body[data-layout="modern"]) { font-size: 14px; }
+  html:has(body[data-layout="modern"]) { font-size: 15px; }
 }
 
 [data-layout="modern"] .content {
@@ -120,7 +120,7 @@ html:has(body[data-layout="modern"]) {
 .topbar-brand {
   font-family: "Space Grotesk", Inter, sans-serif;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 17px; /* keep prior topbar size independent of 14px body */
   letter-spacing: -0.02em;
   color: var(--am-fg) !important;
   text-decoration: none;
@@ -146,7 +146,7 @@ html:has(body[data-layout="modern"]) {
 
 .topbar-nav-item {
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  font-size: 0.875rem;
+  font-size: 13px; /* prior ~0.875rem at 15px root */
   color: var(--am-fg) !important;
   text-decoration: none;
   transition: color 0.15s ease;
