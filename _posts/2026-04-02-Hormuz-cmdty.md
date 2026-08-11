@@ -25,9 +25,9 @@ Mainly summarizing from experts on X:
 * [Ole Hansen](https://x.com/Ole_S_Hansen)
 * Many, many others (non exhaustive!)
 
-# "Monitoring" The Situation
+## "Monitoring" The Situation
 
-## Timeline
+### Timeline
 
 <center>
 <img src="{{ site.imageurl }}/Hormuz/0-Straits.jpg" style="width:50%;"/>
@@ -41,7 +41,7 @@ Aside from military response, the response by Administration or by Trump on Trut
 
 Then was the 48 hour ultimatum which got TACO'd, the Iranian policy to selectively allow a small amount of certain vessels through with permission, some escalation to power plant/desalination strikes (on Iran by US and on Kuwait by Iran), some crazy trolling by Ghalibaf on X, some OSINT rumours about another military buildup for a land invasion, then the nationwide address by Trump and letter by Pezeshkian, etc. Now the main question for this situation is if another escalation wave will come (and the degree of it) or peace talks will be happening, and the near term Hormuz policy by Iran.
 
-## Response
+### Response
 
 The response was an interwoven price shock through supply chains that is propagating the world now with a time lag - mainly in energy/agriculture and downstream industries (e.g chemicals, semiconductors, consumer goods, etc). Which hits developing countries harder as they spend a higher % of income on necessities.
 
@@ -51,9 +51,9 @@ I would try to examine, using the humanistic framework in my first post (the ide
 
 From a markets perspective, the key would be to somehow predict in the military buildup phase that a prolonged war/detente with an energy crisis would unfold, and the faster one realized this, the faster one goes Max Long.
 
-# First Order Effects
+## First Order Effects
 
-## Crude
+### Crude
 
 <center>
 <img src="{{ site.imageurl }}/Hormuz/1-CrudeOil.png" style="width:100%;"/>
@@ -63,7 +63,7 @@ From a markets perspective, the key would be to somehow predict in the military 
 We can see the market starts pricing in the geopolitical risk premium the moment the Operation happened. Also interesting to see the divergence between the ME oil benchmark and WTI/Brent.
 
 
-## Refined Products
+### Refined Products
 
 
 <center>
@@ -87,7 +87,7 @@ The response:
 * Direct and Pass Through Costs/Inflation - Across all parts of the barrel.
 * Force Majeure - In Asian petchem plants
 
-## LNG
+### LNG
 
 <center>
 <img src="{{ site.imageurl }}/Hormuz/3-NaturalGas.png" style="width:100%;"/>
@@ -109,13 +109,13 @@ Nitrogen/urea fertilizer supply from natural gas affects agriculture/food supply
 
 Lastly, helium supply which is used in cooling in semiconductor manufacturing, so possibly memory/RAM and processor prices? To my knowledge, semiconductor companies cannot switch or substitute helium out, but also, the current AI boom has already been very bullish for chips and it is not a consumer staple good like food and power/heating is so maybe it is less demand elastic?
 
-# Second Order
+## Second Order
 
 The second order effects on commodities are mostly on agriculture through the fertilizer crisis link and thus lower crop yields in upcoming harvest seasons + the sugarcane to ethanol story as governments mandate for more ethanol blending to alleviate the gasoline shock. 
 
 For the former, it is about identifying which crops have greatest sensitivity to the loss of urea and phosphate fertilizer, and to which countries the urea goes to and what mix of crops they grow or export.
 
-## Fertilizer
+### Fertilizer
 
 <center>
 <img src="{{ site.imageurl }}/Hormuz/4-Urea.png" style="width:100%;"/>
@@ -132,7 +132,7 @@ There is apparently physical intuition for which crops are sensitive to which ty
 
 Sulfuric acid is used in leaching of in metal ores where concentration is low in base/battery metals like copper, nickel, cobalt, zinc and lithium. Given the loss of sulfur exports out of the gulf and the banning of sulfuric acid exports by China, miners might face increased leaching costs reflecting in prices. However the question is how these effects can be quantified.
 
-## Agriculture
+### Agriculture
 
 <center>
 <img src="{{ site.imageurl }}/Hormuz/5-Sugar.png" style="width:100%;"/>
@@ -157,19 +157,19 @@ While the ethanol situation should play out fairly quickly, there will be a time
 
 However, it seems the supply shock to sugar/ethanol will be in delayed fashion.
 
-# Other
+## Other
 
-## Macroeconomy
+### Macroeconomy
 
 I don't know much about this but my guess is there will be some expression in the economies of the more impacted countries like Korea and Japan in their stock and bond markets as inflation sets in due to rising energy costs.
 
-## Domestic Politics
+### Domestic Politics
 
 It is quite clear that domestic approval in the US voter base for Trump is going down and also spiking gasoline prices in the US won't do him any favors locally. 
 
 There is a tweet on X showing the approval index dropping but another counterargument that this is statistically similar to the last two president's approval ratings. So I don't know. What is clear is that this decision has soured international relations both of Trump Administration with NATO and the ME/Gulf states who are not happy about having their very hard to repair energy infrastructure bombed and their main seaborne export channel effectively stopped out.
 
-## International Relations
+### International Relations
 
 There is some idea in Trump and other Administration members that they expected NATO to support the war effort which did not happen, which is not surprising given the tariff and Greenland situation several months earlier.
 
@@ -177,19 +177,19 @@ I imagine the Gulf States will implement some policies/directives to reduce Horm
 
 The Asian countries exposed to this crisis like Japan and Korea also probably are looking efforts to diversify their LNG/oil dependence on Gulf states/Qatar, but all these efforts will play out on a timescale of years to come.
 
-## Iran
+### Iran
 
 Nobody has a clue how the post war Hormuz situation will look like. A tolling booth style scenario is in the works, but how would the Gulf States react? Or maybe a long and bloody land invasion with even crazier energy/food shocks and the US controlling Hormuz might occur. 
 
-## Russia
+### Russia
 
 There was news of Ukrainian weapons aid from the US being diverted to fund the Iranian effort and easing of Russian sanctions to clear the floating storage buffer and increasing Europe energy dependence on Russia looks like the war is very beneficial for Putin, especially if the situations drags on longer and longer.
 
-## Summary
+### Summary
 
 So, from what I see on X, and I agree with, the general idea of Trump being so adversarial instead of cooperative eventually will backfire for the US in the long run in terms of trade and economy. Alienation over cooperation is not a good thing. Why he is doing so, I have no idea - obviously he believes in being adversarial, but why is another question. Maybe it's just the way he operates.
 
-## General Learnings
+### General Learnings
 
 One key idea of the humanistic framework I proposed is that time is a flat circle. Aka certain situations occur involving the same actors and same actions being taken. So we can draw parallels to the last commodity shock due to war, the ongoing Russian-Ukraine war and gas crisis in 2022.
 
@@ -202,7 +202,7 @@ To that, these points follow:
 
 As of today, start of April, peace talks / ceasefire agreement for couple of weeks seems to have not done much, as bombings and strikes of infrastructure continue, neither has traffic opened up, and the military buildup is still ongoing. So... 
 
-## The Humanistic Framework
+### The Humanistic Framework
 
 
 This exercise is an ex-post application of the humanistic framework to practice - to understand how a situation evolves, action and reaction.

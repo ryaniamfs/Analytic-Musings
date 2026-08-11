@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+  {% comment %}
+    Dev layout switch: flip to "classic" to restore the Hyde sidebar.
+  {% endcomment %}
+  {% assign site_layout = "modern" %}
+
   {% include head.html %}
 
-  <body class="theme-base-not-purpz">
+  <body class="theme-base-not-purpz" data-layout="{{ site_layout }}">
 
-    {% include sidebar.html %}
+    {% if site_layout == "classic" %}
+      {% include sidebar.html %}
+    {% else %}
+      {% include topbar.html %}
+    {% endif %}
 
-    <div class="content container">
-      {{ content }}
+    <div class="content{% if site_layout == 'modern' %} content--with-toc{% else %} container{% endif %}">
+      <div class="content-main">
+        {{ content }}
+      </div>
+      {% if site_layout == "modern" %}
+        <aside class="toc" id="toc" hidden aria-label="Table of contents"></aside>
+      {% endif %}
     </div>
+
+    {% if site_layout == "modern" %}
+      {% include footer.html %}
+      <script src="{{ site.url }}/assets/js/toc.js"></script>
+    {% endif %}
 
   </body>
   <link rel="stylesheet" type="text/css" href="{{site.url}}/css/syntax.css"> <!-- IMPORTANT -->

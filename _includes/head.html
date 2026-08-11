@@ -16,7 +16,27 @@
     <link rel="stylesheet" href="{{ site.url }}/css/poole.css">
     <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
     <link rel="stylesheet" href="{{ site.url }}/css/hyde.css">
+    {% if site_layout == "modern" %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/css/modern.css">
+    <script>
+      (function () {
+        var KEY = 'am-color';
+        var mode = 'light';
+        try {
+          var saved = localStorage.getItem(KEY);
+          if (saved === 'light' || saved === 'dark') mode = saved;
+          else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) mode = 'dark';
+        } catch (e) {}
+        document.documentElement.setAttribute('data-color', mode);
+      })();
+    </script>
+    <script src="{{ site.url }}/assets/js/theme.js"></script>
+    {% else %}
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    {% endif %}
 
     <!-- Icons -->
     <link rel="shortcut icon" href="/assets/favicon.PNG">

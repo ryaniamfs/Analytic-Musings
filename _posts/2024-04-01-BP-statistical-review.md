@@ -14,25 +14,6 @@ My goal is to gain _intuitive geographical feel_ of the global energy markets, f
 
 The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.org/__data/assets/excel_doc/0007/1055545/EI-stats-review-all-data.xlsx). After much wrangling, I produced charts how I see fit to best explain the data. For each category, we will try and understand what the sequence of events leading up to the story told in the chart. We'll build up with simple, boring stuff to more exciting, interesting stuff.
 
-## Table of Contents
-
-
-<!-- TOC -->
-
-- [Table of Contents](#table-of-contents)
-- [Oil Reserves (MMMbl)](#oil-reserves-mmmbl)
-- [Oil Production (mbld)](#oil-production-mbld)
-- [Oil and Product Consumption (mbld)](#oil-and-product-consumption-mbld)
-- [Capacity (mbld)](#capacity-mbld)
-- [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
-- [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
-- [Gas Reserves (TN CMs)](#gas-reserves-tn-cms)
-- [Gas Production (BN CM Y)](#gas-production-bn-cm-y)
-- [Gas Consumption (BN CM Y)](#gas-consumption-bn-cm-y)
-- [LNG and Pipeline Flows (BN CM Y)](#lng-and-pipeline-flows-bn-cm-y)
-- [Conclusion](#conclusion)
-
-<!-- /TOC -->
 One ExaJoule, or $10^{18}J$ is equivalent to $174M$ barrels of oil. In 2022, world energy consumption was $604$ ExaJoules. Our first chart tells the story of energy consumption by region from 1960 to 2022. The main story is that APAC has outstripped the growth rates of all other regions which have remained fairly stagnant. 
 
 <center>
