@@ -129,7 +129,7 @@ This can be modelled via the **action framework**. For a situation, we identify 
 
 **Understanding the Situation** - Basically, holding a mental model of all the actors in your head, simultaneously, performing actions and interacting in time and space. This is the hardest thing to do.
 
-**Non-precise visualisation (map view)** - Idea is to visualise where the action is happening, and who is doing it, in a way that the laws of physics are not important/or are approximated away. A top down **map-view** helps.
+**Non-precise visualisation (map view)** - Idea is to visualise where the action is happening, and who is doing it, in a way that the laws of physics are not important/or are approximated away. A top down **map-view** helps. **Place** the action/actor, zoom in, and imagine/visualise it from a spatial perspective.
 
 **Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context. The more context, the better your thesis.
 
