@@ -21,7 +21,7 @@
 
       {% assign pages_list = site.pages | sort:"order" %}
       {% for node in pages_list %}
-        {% if node.title == "Legal Disclaimer" or node.title == "About"%}
+        {% if node.title == "Legal Disclaimer" or node.title == "About" or node.title == "Post Archive" %}
             {% continue %}
         {% endif %}
         {% if node.title != null %}
@@ -31,10 +31,8 @@
         {% endif %}
       {% endfor %}
 
-
-            
-     <a class="sidebar-nav-item {% if page.url == '/about/' %} active {% endif %}" href="/about/">About</a>
-     <!-- <a class="sidebar-nav-item {% if page.url == node.url %} active {% endif %}" href="/notes/">Notes</a> -->
+      <a class="sidebar-nav-item {% if page.url == '/2022/09/24/thinking-about-thinking/' %} active {% endif %}" href="/2022/09/24/thinking-about-thinking/">Metacognition</a>
+      <a class="sidebar-nav-item {% if page.url == '/about/' %} active {% endif %}" href="/about/">About</a>
 
 
         <!-- <a class="sidebar-nav-item {% if page.url == node.url %} active {% endif %}" href="{{ node.url }}">{{ node.title }}</a> -->
