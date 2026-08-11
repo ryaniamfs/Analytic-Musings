@@ -146,7 +146,7 @@ html:has(body[data-layout="modern"]) {
 
 .topbar-nav-item {
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  font-size: 13px; /* prior ~0.875rem at 15px root */
+  font-size: 15px;
   color: var(--am-fg) !important;
   text-decoration: none;
   transition: color 0.15s ease;
@@ -371,7 +371,7 @@ html:has(body[data-layout="modern"]) {
 
 .toc-title {
   font-family: "Space Grotesk", Inter, sans-serif;
-  font-size: 0.75rem;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -387,14 +387,14 @@ html:has(body[data-layout="modern"]) {
 }
 
 .toc-item {
-  margin: 0.35rem 0;
+  margin: 0.4rem 0;
 }
 
 .toc-item a {
   display: block;
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.35;
+  font-size: 14px;
+  line-height: 1.4;
   color: hsl(20 5% 45%) !important;
   text-decoration: none;
   transition: color 0.15s ease;
