@@ -4,6 +4,29 @@ title: Home
 ---
 
 <div class="posts">
+    {% if paginator.page == 1 %}
+    <div class="post">
+      <h1 align="center" class="post-title">
+        <a href="{{ site.url }}/notes/fa/fa/">
+          Football Analytics Ideas
+        </a>
+      </h1>
+      <div>
+          <span style="display: inline" class="post-date">
+              Notes
+           </span>
+           &emsp;
+           <span style="display:inline">[
+               <a href="{{ site.url }}/notes/">notes</a>
+           ]</span>
+      </div>
+      <br>
+      Building a systematic football moneyline betting engine (or trying to)
+      <a href="{{ site.url }}/notes/fa/fa/">Read more...</a>
+      <br /><br />
+    </div>
+    {% endif %}
+
     {% for post in paginator.posts %}
     <div class="post">
       <h1 align="center" class="post-title">
