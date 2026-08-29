@@ -135,8 +135,7 @@ So key skills:
 
 **Effects - Quantification of Actions** - Quantify effects/actions of actors by assigning numbers. Thus letting you do **comparison** and **aggregation**.
 
-**Systematic Data Processing Frameworks** - Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises and processes data to understand how a situation evolves, where your mind is the model.
-
+**Systematic Data Processing Frameworks** - Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises and processes data to understand how a situation evolves, where your mind is the model. Your mind is the model, not the computer. The data and process cover different parts of actor/action space.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
