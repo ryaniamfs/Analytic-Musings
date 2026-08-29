@@ -124,16 +124,18 @@ This can be modelled via the **action framework**. For a situation, we identify 
 
 * **Situations/subplots** - Categorize the situation.
 * **Actors(s)** - A group of people effectively. Single person = singleton group. Put yourself in their shoes/perspective.
-* **Actions** - Non-precise visualisation. Context > action > reaction. Frame of reference. Quantify via effects.
+* **Actions** - Non-precise visualisation. Context > action > reaction. Frame of reference. Quantify via effects (assigning a number). 
 * **Motivation** - Understand why or the motivation behind this action being performed by this actor. Again, put yourself in their shoes to know why.
 
 So key skills:
 
 **Understanding the Situation/Empathy** - Placing yourself into an actors shoes, understanding their actions & motivation.
 
-**Non-precise visualisation (map view)** - Idea is to visualise where the action is happening, and who is doing it, in a way that the laws of physics are not important/or are approximated away. A top down **map-view** helps. **Place** the action/actor, zoom in, and imagine/visualise it from a spatial perspective.
+**Non-precise Visualisation** - Idea is to visualise where the action is happening, and who is doing it, in a way that the laws of physics are not important/or are approximated away. A top down **map-view** helps. **Place** the action/actor, zoom in, and imagine/visualise it from a spatial perspective.
 
-**Effects - Quantification of actions** - Quantify effects/actions of actors by assigning numbers.
+**Effects - Quantification of Actions** - Quantify effects/actions of actors by assigning numbers. Thus letting you do **comparison** and **aggregation**.
+
+**Systematic Data Processing Frameworks** - Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises and processes data to understand how a situation evolves, where your mind is the model.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
