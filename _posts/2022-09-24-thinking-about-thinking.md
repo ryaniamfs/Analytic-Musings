@@ -108,7 +108,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
+The humanistic framework is concerned with modelling human behavior at a macro scale (aka a decision or action). This implicitly means economics and history.
 
 The node is an actor or an action. Actors perform actions, and the effects cause other actors to perform actions. You identify and categorize actors and actions, and then connect them to each other.
 
@@ -127,15 +127,13 @@ This can be modelled via the **action framework**. For a situation, we identify 
 * **Actions** - Non-precise visualisation. Context > action > reaction. Frame of reference. Quantify via effects (assigning a number). 
 * **Motivation** - Understand why or the motivation behind this action being performed by this actor. Again, put yourself in their shoes to know why.
 
-So key skills:
+**Key Triggers/Skills** - Who (actor), why (motivation/context), what/when/where/how (action/effect).
 
-**Understanding the Situation/Empathy** - Placing yourself into an actors shoes, understanding their actions & motivation.
-
-**Non-precise Visualisation** - Idea is to visualise where the action is happening, and who is doing it, in a way that the laws of physics are not important/or are approximated away. A top down **map-view** helps. **Place** the action/actor, zoom in, and imagine/visualise it from a spatial perspective.
+**Non-precise Visualisation** - Idea is to visualise where the action is happening, but at a macro scale unlike precise visualisation (where physical or numerical precision matters). A top down **map-view** is a proxy.
 
 **Effects - Quantification of Actions** - Quantify effects/actions of actors by assigning numbers. Thus letting you do **comparison** and **aggregation**.
 
-**Systematic Data Processing Frameworks** - Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises different types of data and then processes each subset of data to understand how a situation evolves, where your mind is the model. The difference is, your mind is the model, not the computer. 
+**Systematic Data Processing Frameworks** - Applying the **key triggers/skills** to real world data. Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises different types of data and then processes each subset of data to understand how a situation evolves, where your mind, not the machine, is the model.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
