@@ -108,19 +108,11 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-The humanistic framework is concerned with modelling human behavior at a macro scale (aka a decision or action). This implicitly means economics and history.
+The humanistic framework is concerned with modelling human behavior at a macro scale (aka economics/markets, history, politics). 
 
-The node is an actor or an action. Actors perform actions, and the effects cause other actors to perform actions. You identify and categorize actors and actions, and then connect them to each other.
+The node is an actor or an action. Actors perform actions, and the effects cause other actors to perform actions. Forming a situation graph.
 
-A grouping of nodes or actions by actors is called a situation or subplot. We can then break down a situation hierarchically over time into subplots or subsituations.
-
-<!-- * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
-* Connect to the **actors**: Who are the actors are involved in this subplot? Visualise them and put yourself in their perspective.
-* Visualise the **action**: What actions are the actors performing? Use **visualisation** via the deterministic framework.
-* Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
-* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
-
-This can be modelled via the **action framework**. For a situation, we identify the actors as nodes, then connect them together via actions and reactions.
+This can be modelled via the **action framework**. 
 
 * **Situations/Subplots** - Players performing actions.
 * **Players/Actors** - Frame of reference. Person or organisation. Who.
