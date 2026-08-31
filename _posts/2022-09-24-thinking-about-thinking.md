@@ -122,10 +122,10 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be modelled via the **action framework**. For a situation, we identify the actors as nodes, then connect them together via actions and reactions.
 
-* **Situations/subplots** - Categorize the situation.
-* **Actors(s)** - A group of people effectively. Single person = singleton group. Put yourself in their shoes/perspective.
-* **Actions** - Non-precise visualisation. Context > action > reaction. Frame of reference. Quantify via effects (assigning a number). 
-* **Motivation** - Understand why or the motivation behind this action being performed by this actor. Again, put yourself in their shoes to know why.
+* **Situations/Subplots** - Players performing actions.
+* **Players/Actors** - Frame of reference. Person or organisation. Who.
+* **Actions** - What/when/where/how. Non-precise visualisation. Context > action > reaction. Effects. 
+* **Motivation** - Why? Intended outcome, context.
 
 **Key Triggers/Skills** - Who (actor), why (motivation/context), what/when/where/how (action/effect).
 
@@ -133,7 +133,7 @@ This can be modelled via the **action framework**. For a situation, we identify 
 
 **Effects - Quantification of Actions** - Quantify effects/actions of actors by assigning numbers. Thus letting you do **comparison** and **aggregation**.
 
-**Systematic Data Processing Frameworks** - Applying the **key triggers/skills** to real world data. Similar to how one trains a model or pipeline with data, we can do the same in the humanistic sense. Build a set of processes on how your mind systematically organises different types of data and then processes each subset of data to understand how a situation evolves, where your mind, not the machine, is the model.
+**Forecasting the Situation** - Applying the **key triggers/skills** to a situation to forecast player actions. Closest analogue: building a model. But the model is your mind. So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
