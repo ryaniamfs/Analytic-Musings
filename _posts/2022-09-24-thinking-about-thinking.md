@@ -116,7 +116,7 @@ A node in a situation graph can be:
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Categorization** - Categorization of the following types of nodes/graphs: who (actor), why (motivation/context), what/when/where/how (action/effect).
+**Categorization** - Categorization of the following types of nodes/graphs: who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), what/when/where/how (action/effect).
 
 **Forecasting** - Applying the **key triggers/skills** to a situation to forecast player actions. Closest analogue: building a model. But the model is your mind. So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind.
 
