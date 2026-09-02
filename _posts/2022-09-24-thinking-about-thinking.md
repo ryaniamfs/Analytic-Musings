@@ -118,7 +118,7 @@ A node in a situation graph can be:
 
 **Data Categorization** - Categorize data into nodes/graphs: who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), what/when/where/how (action/effect).
 
-**Forecasting** - Processing the above data from a situation to forecast player actions. Closest analogue: building a model. But the model is your mind. So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind. How do we identify different data sources/flows, put them into processes, and draw conclusions/forecasts from them? It is difficult.
+**Forecasting** - Processing the **above data** from a situation to **forecast** player actions. Closest analogue: building a ML model. But the model is your mind (wetware, not soft/hardware). So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind. How do we identify different data sources/flows, put them into processes, and draw conclusions/forecasts from them? It is difficult.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
