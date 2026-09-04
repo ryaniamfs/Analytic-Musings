@@ -112,11 +112,11 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 
 A node in a situation graph can be:
 
-* **Players/Actors** - Frame of reference. Person or organisation. Who.
+* **Players/Actors** - Frame of reference. Person or organisation. Who. Perspective, shoes, empathy, imagination.
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Data Categorization (Action First)** - The trick to the above is whenever you encounter new information, you first apply **NPV to visualise the action/behavior**: what/when/where/how (action/effect), then you connect who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), 
+**Data Categorization (Action First)** - The trick to the above is whenever you encounter new information, you first apply **NPV to visualise the action/behavior**: what/when/where/how (action/effect) and & use **perspective** to connect who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), etc. Do it concurrently!
 
 **Forecasting** - Processing the **above data** from a situation to **forecast** player actions. Closest analogue: building a ML model. But the model is your mind (wetware, not soft/hardware). So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind. How do we identify different data sources/flows, put them into processes, and draw conclusions/forecasts from them? It is difficult.
 
