@@ -116,9 +116,9 @@ A node in a situation graph can be:
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Data Categorization & Processing** - Applying the above processing techniques to categorize data: "who did this?" and "what" and "why"?
+**Processing Information** - Processing and categorizing the above information into your data streams.
 
-**Forecasting** - Processing the **above data** from a situation to **forecast** player actions. So you **curate** your data sources and processes, **organize** them into maps, then feed it into your **mind** to draw conclusions or forecasts about actors behavior and motivations and actions.
+**Forecasting/Connecting Behaviors** - From data stream into connecting actors behavior to one another via your mental models. Who does this, this causes that, that causes this, with the objective of connecting behaviors to the terminal outcome (that you are satisfied to not connect any further).
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
