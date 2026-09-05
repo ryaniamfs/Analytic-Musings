@@ -118,7 +118,7 @@ A node in a situation graph can be:
 
 **Data Categorization (Action First)** - The trick to the above is whenever you encounter new information, you first apply **NPV to visualise the action/behavior**: what/when/where/how (action/effect) and & use **perspective** to connect who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), etc. Do it concurrently!
 
-**Forecasting** - Processing the **above data** from a situation to **forecast** player actions. Closest analogue: building a ML model. But the model is your mind (wetware, not soft/hardware). So you need to have processes to organize data and feed into your mind to forecast player actions. To train the model = train your mind. How do we identify different data sources/flows, put them into processes, and draw conclusions/forecasts from them? It is difficult.
+**Forecasting** - Processing the **above data** from a situation to **forecast** player actions. So you **curate** your data sources and processes, **organize** them into maps, then feed it into your **mind** to draw conclusions or forecasts about actors behavior and motivations and actions.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
