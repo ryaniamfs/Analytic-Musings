@@ -116,7 +116,7 @@ A node in a situation graph can be:
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Data Categorization (Action First)** - The trick to the above is whenever you encounter new information, you first apply **NPV to visualise the action/behavior**: what/when/where/how (action/effect) and & use **perspective** to connect who (identifying actors/players and putting yourself in their situation/context), why (motivation/intended outcomes), etc. Do it concurrently!
+**Data Categorization & Processing** - Applying the above processing techniques to categorize data: "who did this?" and "what" and "why"?
 
 **Forecasting** - Processing the **above data** from a situation to **forecast** player actions. So you **curate** your data sources and processes, **organize** them into maps, then feed it into your **mind** to draw conclusions or forecasts about actors behavior and motivations and actions.
 
