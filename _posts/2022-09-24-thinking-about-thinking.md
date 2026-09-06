@@ -116,7 +116,7 @@ A node in a situation graph can be:
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Good Data Processes** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. To that end, having good organisation of your data and visualisation is important.
+**Good Data Processes/Routines/Habits** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
 
 **Forecasting/Connecting Behaviors** - From your data process into your own mental model. Who does what, this causes that, that causes this, with the objective of connecting behaviors to the terminal outcome (that you are satisfied to not connect any further).
 
