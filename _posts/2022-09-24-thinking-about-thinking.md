@@ -112,13 +112,16 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 
 A node in a situation graph can be:
 
-* **Players/Actors** - Frame of reference. Person or organisation. Who. Perspective, shoes, empathy, imagination.
+* **Humans/Players/Actors** - Frame of reference. Bunch of humans. Who. Perspective, shoes, empathy, imagination.
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
-**Good Data Processes/Routines/Habits** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
 
-**Forecasting/Connecting Behaviors** - From your data process into your own mental model. Who does what, this causes that, that causes this, with the objective of connecting behaviors to the terminal outcome (that you are satisfied to not connect any further).
+**Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
+
+**Data Organisation/Routines** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
+
+**Forecasting/Connecting Behaviors** - From your data process into your own mental model. Which human does what, this causes that, that causes this, with the objective of connecting behaviors to the terminal outcome (that you are satisfied to not connect any further).
 
 
 
