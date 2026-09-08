@@ -81,7 +81,19 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Team Strength Delta Factor - Marginal XG value varies in opponent strength. Scale the XG difference by team strength deltas. To account for team strength differences.
     * Game State Weighting Factor - Marginal XG value varies in time. E.g for goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay. Or sofascore attacking momentum.
     * Structural Factor - Marginal XG value can vary due to structural over/underperf. E.g a team with deadly finishers and long shot specialists can consistently score low XG goals and overperform. A team with bad finishers can underperform.
-* **Lineup/player selection feature**
+* **Style feature**
+    * Idea - The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. 
+    * Idea - This style matchup more or less overpowers any strength-difference features to produce a contrarian result that is "unexpected". We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. 
+    * Confounding with Game State - Styles can change within a match. For example, a team might switch from high pressing to sitting back after taking a 2-0 lead.
+    * Confounding with Opponent - This is a bigger factor as a team might play different styles versus different opponents! For example, a relegation team might play a low block to frustrate a much stronger opponent (because they simply don't have the skill to play attacking vs a stronger team) and come away with a narrow draw. But, the same team, facing a less strong opponent, say, midtablem might open up and lose because of that. 
+    * Bogey Team Trope - The football trope of a "bogey team" seems to imply the existence of style advantage and disadvantage. A comment from ["Why is Spurs of all teams our Kryptonite" from reddit](https://www.reddit.com/r/MCFC/comments/1ip9wuk/why_is_spurs_of_all_teams_our_kryptonite_cant/) - Says "Rock Paper Scissors innit". There must be some wisdom in this trope if fans latently express it.
+    * Player/Team Balance - **Midfield balance** (creativity, control, defensive awareness). No defensive awareness leads to susceptibility to conceding and fast transitions. No creativity leads to an inability to break down low blocks. 
+    * Style Negation/Aggravation (SNA) - Certain teams might be good at overcoming style mismatches: for example, a low block could be broken if a team has lots of verticality, dribblers, longshot specialists, or midfielders that break lines/take risks, or a target man to spam crosses into. A team might be good at preventing counterattacks simply by having a world class DM with pace that can sweep up. E.g Declan Rice. 
+    * Counterattack/Transition vs Possession/Pressing - Matchups of City vs Spurs (GW12 24/25, 23-11-24, 4-0), United vs City (GW21 25/26, 17-01-26, 2-0) come to mind. *SNA*: made worse by an attacking minded, slow, midfield vs fast attackers.
+    * Low Block vs Dominant Team - Many of Arsenal's games in 25/26 come to mind. Sunderland vs Arsenal (GW11 25/26, 08-11-25, 2-2). This happens often when a stronger team plays a weak team. The weak team sets up shop. The metrics then look very lopsided as the strong team just batters the weak teams low block and the margin of victory, if any, becomes much closer than the underlying stats suggest. See Burnley vs Liverpool (GW4 25/26, 04-09-25, 0-1).  *SNA*: The amount of creative dribbling/dribblers to get past blocks, and the verticality/progressiveness of the midfielders in terms of their passing.
+    * Crossing/Set Piece Vulnerability - Can't think of an example for this. *SNA*: Height difference in teams (certain distribution of height amongst positions matters more?), say crossing dominant team vs opponent backline height.  
+    * Residual Analysis - Once having a good model without style, back out any strange or outlier results. Infer the style mismatch from them. Problem - needs a decent model first. Also outlier matches may not be due to style mismatch.
+* **Player selection feature**
     * Idea - How much alpha in picking the selected starting XI / subs for that opponent contributes relative to the theoretical ideal/maximum starting XI/subs. The idea sometimes managers do not pick the "best" lineup.
     * Idea - These are all (creative) functions of player ratings, assuming they are indicative of performance and past performance carries into future performance. Player ratings are proprietary functions of events/tracking data in the algo sense, and journalist human views (eye tests). We use ratings (for now) because we do not have detailed events data, nor do we have a view on how to process events/tracking data to assess performance better than the ratings providers.
     * Ratings - Use historical player ratings to measure effectiveness of the XI. Statistical/algo ratings vs journal ratings.  
@@ -113,19 +125,6 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1) with no motivation.
     * Example - Sometimes, teams with nothing to play for rest players for a big game. 
     * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
-* **Style feature**
-    * Idea - The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. 
-    * Idea - This style matchup more or less overpowers any strength-difference features to produce a contrarian result that is "unexpected". We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. 
-    * Confounding with Game State - Styles can change within a match. For example, a team might switch from high pressing to sitting back after taking a 2-0 lead.
-    * Confounding with Opponent - This is a bigger factor as a team might play different styles versus different opponents! For example, a relegation team might play a low block to frustrate a much stronger opponent (because they simply don't have the skill to play attacking vs a stronger team) and come away with a narrow draw. But, the same team, facing a less strong opponent, say, midtablem might open up and lose because of that. 
-    * Bogey Team Trope - The football trope of a "bogey team" seems to imply the existence of style advantage and disadvantage. A comment from ["Why is Spurs of all teams our Kryptonite" from reddit](https://www.reddit.com/r/MCFC/comments/1ip9wuk/why_is_spurs_of_all_teams_our_kryptonite_cant/) - Says "Rock Paper Scissors innit". There must be some wisdom in this trope if fans latently express it.
-    * Player/Team Balance - **Midfield balance** (creativity, control, defensive awareness). No defensive awareness leads to susceptibility to conceding and fast transitions. No creativity leads to an inability to break down low blocks. 
-    * Style Negation/Aggravation (SNA) - Certain teams might be good at overcoming style mismatches: for example, a low block could be broken if a team has lots of verticality, dribblers, longshot specialists, or midfielders that break lines/take risks, or a target man to spam crosses into. A team might be good at preventing counterattacks simply by having a world class DM with pace that can sweep up. E.g Declan Rice. 
-    * Counterattack/Transition vs Possession/Pressing - Matchups of City vs Spurs (GW12 24/25, 23-11-24, 4-0), United vs City (GW21 25/26, 17-01-26, 2-0) come to mind. *SNA*: made worse by an attacking minded, slow, midfield vs fast attackers.
-    * Low Block vs Dominant Team - Many of Arsenal's games in 25/26 come to mind. Sunderland vs Arsenal (GW11 25/26, 08-11-25, 2-2). This happens often when a stronger team plays a weak team. The weak team sets up shop. The metrics then look very lopsided as the strong team just batters the weak teams low block and the margin of victory, if any, becomes much closer than the underlying stats suggest. See Burnley vs Liverpool (GW4 25/26, 04-09-25, 0-1).  *SNA*: The amount of creative dribbling/dribblers to get past blocks, and the verticality/progressiveness of the midfielders in terms of their passing.
-    * Crossing/Set Piece Vulnerability - Can't think of an example for this. *SNA*: Height difference in teams (certain distribution of height amongst positions matters more?), say crossing dominant team vs opponent backline height.  
-    * FIFA/FC Ratings - From watching Egypt vs Argentina, I realized, could FIFA ratings have any use? For example, the heights of backline vs the defenders/strikers for set piece/headed goals. The pace of the wingers for counterattackers. And the defensive stats of the midfield for breaking counterattacks. For example, some managers might start an offensive midfield (two offensive minded CMs in a double pivot who don't have natural defensive instincts) and then they are very susceptible to fast wingers and counterattacks. FIFA ratings does capture the nature of player quite well. We have to normalize the stats relative to their baselines as we care about the ratio of stats, not their absolute level.
-    * Residual Analysis - Once having a good model without style, back out any strange or outlier results. Infer the style mismatch from them. Problem - needs a decent model first. Also outlier matches may not be due to style mismatch.
 * **Home and away feature**
     * Feature - A home team score and a away team score.
     * Key Idea - Idea being certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference
@@ -143,6 +142,12 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
  * **Bookie odds feature**
     * Key Idea - The Benter boost as per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds. Odds time series from bettingiscool (49euro/month).
+
+### Feature Interaction
+
+Style factors represent a style that is directed by the manager for the starting XI to execute. However it interacts with player selection, certain players are responsible for implementing or neutralizing a style. For example, a destroyer like Caicedo or Rice for a possession team prevents a counterattacking team from executing effectively.
+
+Style factors interact with home and away, in general, home teams tend to want to dominate and have more possession. Not always the case though.
 
 
 
@@ -209,16 +214,9 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Attribution - E.g lose game because of big injuries. Lose game because looking tired in the 2nd half due to season-accumulating fatigue. Lose game because tactically outmatched by a style.
 
 
-
-## Datasets Not Spanned
-
-* Complex in-game play-by-play events data, from StatsBomb or Opta. Proprietary, used by scouts, expensive.
-* PLayer in-game statistics. Per game, aggregated from the former. Do these have any use? It tells you how a player performed / what he did in a game, beyond just the player ratings. Ratings are a function of this.
-
-
 ## Non-Betting Ideas
 
-### Player Assessment with Stats
+**Player Assessment with Stats**
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
 
@@ -238,11 +236,11 @@ Problem:
 * Finding the right dependent variable is difficult. Many ways to construct it. 
 * Statistics generated by players in matches are dependent on their team and league. For example, the argument that Portugese league strikers score tonnes of goals but flop in the higher leagues when they transfer.
 
-### Player Assessment with Physical Attributes
+**Player Assessment with Physical Attributes**
 
 Are there optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness) that can determine a player's success in scouting? This relates to the eye test. For example, we can see Messi clearly has some interesting different physical attributes when he plays that contributes to his success. But how to quantify these in numbers is a problem.
 
-### Injuries
+**Injuries**
 
 Can we predict which teams get the most injuries? 
 
