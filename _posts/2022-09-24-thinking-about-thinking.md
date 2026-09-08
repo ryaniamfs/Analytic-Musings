@@ -117,7 +117,7 @@ A node in a situation graph can be:
 * **Motivation** - Why? Intended outcome, context.
 
 
-**Non-Precise Visualisation** - Essentially visualising some people doing something but at a big picture level. There is a skill to this. Different from precise visualisation (precise physics are overlooked here). Focusing on the who, what, where.
+**Non-Precise Visualisation** - Essentially visualising some people doing something but at a big picture level. There is a skill to this. Different from precise visualisation (precise physics are overlooked here). Top down map view with zoom (who where what)
 
 **Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
 
