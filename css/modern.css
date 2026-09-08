@@ -82,16 +82,24 @@ html:has(body[data-layout="modern"]) {
 }
 
 [data-layout="modern"] .content-main {
-  max-width: 85ch;
+  max-width: 93.5ch;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* TOC is fixed to the viewport; content stays independently centered */
+/* TOC is fixed to the viewport, so reserve its rail here. Without this the text
+   column centres on the full viewport and slides under the TOC on narrow windows. */
 [data-layout="modern"] .content--with-toc {
   display: block;
   max-width: none !important;
+}
+
+/* Keep in sync with the .toc width in the matching breakpoint below. */
+@media (min-width: 64em) {
+  [data-layout="modern"] .content--with-toc {
+    padding-right: 16rem;
+  }
 }
 
 /* ---------- Topbar ---------- */
@@ -440,7 +448,7 @@ html:has(body[data-layout="modern"]) {
 }
 
 .site-footer-inner {
-  max-width: 85ch;
+  max-width: 93.5ch;
   margin: 0 auto;
   text-align: center;
   color: var(--am-muted);
