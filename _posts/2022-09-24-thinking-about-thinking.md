@@ -113,9 +113,11 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 A node in a situation graph can be:
 
 * **Humans/Players/Actors** - Frame of reference. Bunch of humans. Who. Perspective, shoes, empathy, imagination.
-* **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Context > action > reaction. Effects (assigning numbers - comparison and aggregation). 
+* **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation). 
 * **Motivation** - Why? Intended outcome, context.
 
+
+**Non-Precise Visualisation** - Essentially visualising some people doing something but at a big picture level. There is a skill to this. Different from precise visualisation (precise physics are overlooked here). Focusing on the who, what, where.
 
 **Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
 
