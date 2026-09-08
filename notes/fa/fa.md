@@ -39,7 +39,7 @@ So a model needs to be able to identify these anti-narratives happening in real 
 
 ### Cold Start
 
-* **Key idea** — Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from the past season.
+* **Seed from last season** — Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from the past season.
 * **Problem** — Plus take into account squad value? Difficult due to lookahead bias of squad/wages.
 
 ### Team Strength
@@ -50,9 +50,11 @@ Any summarized match/game metric is inflated or deflated by the delta of team st
 
 Any summarized match/game metric like xG/xA, PPDA, field tilt or xT is aggregated. These variables fluctuate by game state, so we need time series metrics within the game to weigh these metrics. For example, a team going 2-0 up and dominating on xG will sit back in the 70th while the opposing team attacks more.
 
-* **Idea** — Sofascore's attacking momentum time series chart.
-* **Idea** — Possession/field tilt time series.
-* **Idea** — Score timings as a game state proxy, if we can't get time series possession or field tilt.
+Candidate within-game proxies:
+
+* Sofascore's attacking momentum time series chart.
+* Possession/field tilt time series.
+* Score timings, if we can't get time series possession or field tilt.
 
 ### XI Release Timing
 
@@ -85,7 +87,7 @@ Twelve features, grouped by what they try to isolate.
 
 ### Core Strength
 
-**Idea** — The fundamental feature at the start of each season: a team has an innate ranking/strength level from its players and the manager. This feature should remain relatively stable across the season.
+**Squad strength is season-stable** — The fundamental feature at the start of each season: a team has an innate ranking/strength level from its players and the manager. This should remain relatively stable across the season.
 
 **Equation** — `core_strength(team) = baseline + differential`, where baseline is existing squad strength last season and differential is the ex-ante expected contribution/strength of incomings less the ex-post contribution/strength of outgoings.
 
@@ -104,9 +106,9 @@ Twelve features, grouped by what they try to isolate.
 
 ### Momentum
 
-**Idea** — A team that overperforms xG diff over goal diff should be winning more, and a team that underperforms xG diff over goal diff should be winning less, as luck is unsustainable. Aka a short window (e.g. simple/exponential MA) of diffs.
+**Luck is unsustainable** — A team that overperforms xG diff over goal diff should be winning more, and a team that underperforms xG diff over goal diff should be winning less. Aka a short window (e.g. simple/exponential MA) of diffs.
 
-**Idea** — xG must be adjusted for team strength factor, game state factor, and structural factor (systematic over/underperformance). The latter can be done by estimating a long window of diffs.
+**Three adjustments to xG** — xG must be adjusted for team strength factor, game state factor, and structural factor (systematic over/underperformance). The latter can be done by estimating a long window of diffs.
 
 * **xG Over/Underperformance of Goal Diff** — Window of league/point-weighted, game-state-weighted goal differentials. Some teams structurally over- or underperform their xG, based on style factors (need to research this) or just player power (e.g. outrageous goals like PSG).
 * **Team Strength Delta Factor** — Marginal xG value varies in opponent strength. Scale the xG difference by team strength deltas, to account for team strength differences.
@@ -115,9 +117,9 @@ Twelve features, grouped by what they try to isolate.
 
 ### Style
 
-**Idea** — Certain teams' styles, e.g. high pressing, possession, counterattack, can neutralize or be (dis)advantaged versus another style.
+**Styles counter styles** — Certain teams' styles, e.g. high pressing, possession, counterattack, can neutralize or be (dis)advantaged versus another style.
 
-**Idea** — This style matchup more or less overpowers any strength-difference features to produce a contrarian result that is "unexpected". We will use match aggregate statistics for this. But it is subject to the [game state problem](#game-state-weighting): a match statistic is aggregated across the game state time series.
+**Style can overpower strength** — The matchup more or less overpowers any strength-difference features to produce a contrarian result that is "unexpected". We will use match aggregate statistics for this. But it is subject to the [game state problem](#game-state-weighting): a match statistic is aggregated across the game state time series.
 
 **Confounding with Game State** — Styles can change within a match. For example, a team might switch from high pressing to sitting back after taking a 2-0 lead.
 
@@ -140,9 +142,9 @@ Concrete mismatches:
 
 ### Player Selection
 
-**Idea** — How much alpha there is in picking the selected starting XI and subs for that opponent, relative to the theoretical ideal/maximum starting XI and subs. The idea being that sometimes managers do not pick the "best" lineup.
+**Managers don't always pick the best XI** — How much alpha there is in picking the selected starting XI and subs for that opponent, relative to the theoretical ideal/maximum starting XI and subs.
 
-**Idea** — These are all (creative) functions of player ratings, assuming they are indicative of performance and that past performance carries into future performance. Player ratings are proprietary functions of events/tracking data in the algo sense, and journalist human views (eye tests). We use ratings, for now, because we do not have detailed events data, nor do we have a view on how to process events/tracking data to assess performance better than the ratings providers.
+**Why player ratings, for now** — These are all (creative) functions of player ratings, assuming they are indicative of performance and that past performance carries into future performance. Player ratings are proprietary functions of events/tracking data in the algo sense, and journalist human views (eye tests). We use ratings, for now, because we do not have detailed events data, nor do we have a view on how to process events/tracking data to assess performance better than the ratings providers.
 
 **Ratings** — Use historical player ratings to measure effectiveness of the XI. Statistical/algo ratings vs journal ratings.
 
@@ -158,9 +160,9 @@ Variants:
 
 ### Availability and Injury
 
-**Idea** — In theory, injuries to key players can damage outcomes. AFCON is basically an injury.
+**Injuries cost points** — In theory, injuries to key players can damage outcomes. AFCON is basically an injury.
 
-**Idea** — This should be captured in [player selection](#player-selection), but what if the ratings price a key player lower?
+**Why not just use player selection** — This should be captured in [player selection](#player-selection), but what if the ratings price a key player lower?
 
 **Injury Separation from Player Selection** — For that reason, we should have an injury feature that quantifies the importance of injured players. And we would use player ratings over historical seasons (if there are any) to get this importance. What if it's a new transfer?
 
@@ -178,19 +180,19 @@ Variants:
 
 ### Fatigue, Congestion and Rotation
 
-**Idea** — Playing too many games in a tight schedule does impact performance versus being well-rested.
+**Congestion degrades performance** — Playing too many games in a tight schedule does impact performance versus being well-rested.
 
 * **Team Fatigue** — Team level fatigue from tight schedules, low rotation etc. Links to [injury/unavailability factors](#availability-and-injury).
 * **Player Level Fatigue** — The idea being a drop in performance of players due to burnout can impact results. Links to [player selection](#player-selection) and [injury/unavailability factors](#availability-and-injury).
-* **Feature** — Fixture count, distance run, pressing intensity, degree of rotation/substitutions, minutes played dispersion. These all impact fatigue, especially deep in cup runs. It kind of kicks in the last months of a season with a drastic collapse. Hence the birth of the April collapse.
+* **Candidate inputs** — Fixture count, distance run, pressing intensity, degree of rotation/substitutions, minutes played dispersion. These all impact fatigue, especially deep in cup runs. It kind of kicks in the last months of a season with a drastic collapse. Hence the birth of the April collapse.
 
 **Example** — Need to find examples where teams bust a gut early in the season and then collapse towards the tail end (e.g. the Arteta and Klopp Arsenal April collapses). Usually accompanied by a congested schedule and injury pileup.
 
 ### Motivation
 
-**Idea** — Some kind of motivation score differential. The idea being that nearing the end of the season, say the last 5 games (GW34), we have teams with increased and decreased motivation.
+**Incentives diverge late in the season** — Some kind of motivation score differential. Nearing the end of the season, say the last 5 games (GW34), we have teams with increased and decreased motivation.
 
-**Feature** — Some kind of score that increases or decreases depending on the position in the table and number of games left.
+**Construction** — Some kind of score that increases or decreases depending on the position in the table and number of games left.
 
 Examples:
 
@@ -201,9 +203,9 @@ Examples:
 
 ### Home and Away
 
-**Feature** — A home team score and an away team score.
+**Construction** — A home team score and an away team score.
 
-**Key idea** — The idea being certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference.
+**Home advantage is team-specific** — Certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference.
 
 **Example** — Interaction effect with the [referee](#referee): we know sometimes referees get swayed by the home crowd and skew decisions.
 
@@ -219,15 +221,15 @@ Some kind of league/point-weighted referee score based on past fixtures over a l
 
 **Starting XI reaction sentiment** — For example, a bad lineup comes out. Fans on X, or the pre-match thread, or the lineup thread, complaining. How do I know? Because I would go immediately to the lineup and start complaining... or at least I would go there to see if other people are complaining.
 
-* **Key idea** — Official club pages will always release the XI on X and Instagram. Does the data there have any predictive power as a signal? Perhaps some kind of sentiment score, on Instagram and X.
-* **Key idea** — Sentiment score differential against closing odds residual. Or some kind of discount adjustment to the final prediction odds.
-* **Key idea** — This is effectively the fan's, or wisdom of the crowd, view on the [starting XI alpha feature](#player-selection). For example, if fans think it is a bad lineup choice, they will be complaining in the release thread.
+* **Club XI posts as a data source** — Official club pages will always release the XI on X and Instagram. Does the data there have any predictive power as a signal? Perhaps some kind of sentiment score, on Instagram and X.
+* **As an odds adjustment** — Sentiment score differential against closing odds residual. Or some kind of discount adjustment to the final prediction odds.
+* **Crowd view on lineup alpha** — Effectively the wisdom of the crowd applied to the [starting XI alpha feature](#player-selection). For example, if fans think it is a bad lineup choice, they will be complaining in the release thread.
 
 ### Bookie Odds
 
-**Key idea** — The Benter boost as per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
+**The Benter boost** — As per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
 
-**Other ideas** — Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds. Odds time series from bettingiscool (49 euro/month).
+**Other angles to test** — Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds. Odds time series from bettingiscool (49 euro/month).
 
 ## Feature Interaction
 
@@ -239,7 +241,7 @@ Style factors also interact with [home and away](#home-and-away). In general, ho
 
 ### The Player/Transfer Problem
 
-**Key idea** — How much strength do incoming players contribute to core squad strength?
+**Pricing incomings** — How much strength do incoming players contribute to core squad strength?
 
 > **Example.** Kvara signed in Jan 24/25 for PSG for 70m euros. He then made a HUGE impact in PSG for the 24/25 and 25/26 CL runs, responsible for their CL dominance.
 
@@ -265,11 +267,11 @@ At -7. So this guy has successfully, ex-ante, made the Wirtz call. The footballi
 
 ### The Manager Problem
 
-**Key idea** — Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
+**Managers have alpha and beta** — Quantifying manager performance. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
 
-**Key idea** — Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons. If a manager consistently has a high ranked residual, across tenures, then you have to say maybe... that's the skill.
+**Residuals reveal skill** — Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons. If a manager consistently has a high ranked residual, across tenures, then you have to say maybe... that's the skill.
 
-**Key idea** — However, it is important to remember that when you include managerial alpha in the model, the alpha must be re-calculated to exclude everything after and including the current season you are modelling! If not, lookahead bias.
+**Recompute alpha point-in-time** — However, it is important to remember that when you include managerial alpha in the model, the alpha must be re-calculated to exclude everything after and including the current season you are modelling! If not, lookahead bias.
 
 **Problem** — This does not take into account the intrinsic value of transfers over or under their budget. E.g. was Iraola carrying Bournemouth or was Rayan carrying Iraola?
 
