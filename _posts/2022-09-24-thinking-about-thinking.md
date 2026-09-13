@@ -123,7 +123,7 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 
 **Forecasting/Connecting Behaviors** - How you interpret the data and form a view of how the situation will evolve (aka what the actors will do over time). 
 
-From X, John Arnold (the legendary natural gas trader) does this big picture thinking consistently, and is one worth emulating. How to do so is another question..
+From X, John Arnold (the legendary natural gas trader) does this big picture thinking consistently, and is one worth emulating. So does Gavin McKracken. How to quantify it into a framework, is a big, big challenge.
 
 
 
