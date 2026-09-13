@@ -121,9 +121,7 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 
 **Data Organisation/Routines** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
 
-**Forecasting/Connecting Behaviors** - How you interpret the data and form a view of how the situation will evolve (aka what the actors will do over time). 
-
-From X, John Arnold (the legendary natural gas trader) does this big picture thinking consistently, and is one worth emulating. So does Gavin McKracken. How to quantify it into a framework, is a big, big challenge.
+**Forecasting/Understanding the Big Picture** - What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
 
 
 
