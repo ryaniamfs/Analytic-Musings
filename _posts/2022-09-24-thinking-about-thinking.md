@@ -108,9 +108,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-The humanistic framework is concerned with modelling human behavior at a macro scale (aka economics/markets, history, politics). The idea is we process nodes (data) with our minds to forecast what happens next.
-
-A node in a situation graph can be:
+The humanistic framework is concerned with modelling human behavior at a macro scale (aka economics/markets, history, politics). The idea is to understand the big picture, the situation, by somehow looking at things evolving from the perspective of multiple actors, all at once!
 
 * **Humans/Players/Actors** - Frame of reference. Bunch of humans. Who. Perspective, shoes, empathy, imagination.
 * **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation). 
@@ -123,7 +121,9 @@ A node in a situation graph can be:
 
 **Data Organisation/Routines** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
 
-**Forecasting/Connecting Behaviors** - From your data process into your own mental model. Which human does what, this causes that, that causes this, with the objective of connecting behaviors to the terminal outcome (that you are satisfied to not connect any further).
+**Forecasting/Connecting Behaviors** - How you interpret the data and form a view of how the situation will evolve (aka what the actors will do over time). 
+
+From X, John Arnold (the legendary natural gas trader) does this big picture thinking consistently, and is one worth emulating. How to do so is another question..
 
 
 
