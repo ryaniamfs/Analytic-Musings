@@ -115,7 +115,7 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 * **Motivation** - Why? Intended outcome, context.
 
 
-**Non-Precise Visualisation** - Visualise the entire situation happening. Physically. Easy to say, hard to do.
+**Non-Precise Visualisation** - Visualise the entire situation happening. Map view. Flows. Visualise matter, substance and force. This is what Yet Another Commodity Guy does to an extremely precise level.
 
 **Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
 
