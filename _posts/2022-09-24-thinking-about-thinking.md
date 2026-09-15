@@ -7,126 +7,148 @@ category: productivity
 In this post, I explore the notion that we can observe experts in different fields and distill their underlying patterns of thought via the right syntax in order to adapt the "optimal style of thought" for that field (e.g natural sciences, computation, humanities).
 <!--more-->
 
-A _field_ is just an area of study. My idea is that understanding complexity is about linking things together, but each field has different _things_, and each thing has it's own type of _link_. As we link things together, we can build a clearer visualisation in our head.
+A _field_ is just an area of study. My idea is that understanding complexity is about linking things together, but each field has different _things_, and each thing has its own type of _link_. As we link things together, we can build a clearer visualisation in our head.
 
 ## The Right Words
+
 I posit how to think about these _things_ and _links_ can be captured by invoking the right _word_ or _syntax_.
 
 > We have just seen, through an example, how important words are in Mathematics. One can hardly believe how a well-chosen word can provide economy of thought.
+>
+> — Henri Poincaré
 
 <center>
-<img src="{{ site.imageurl }}/Metacognition/henri-poincare.jpg" style="width:50%;"/>
-<figcaption>Henri Poincaré 1854-1912</figcaption>
+<img src="{{ site.imageurl }}Metacognition/henri-poincare.jpg" alt="Portrait of Henri Poincaré" style="width:50%;"/>
+<figcaption>Henri Poincaré, 1854–1912</figcaption>
 </center>
 
-Thus, by _observing_ experts in respective fields, like a scientist, mathematician, programmer, investor being interviewed,  and examining their _choice of words_, we can capture how they think. Sounds simple enough! 
+Thus, by _observing_ experts in respective fields, like a scientist, mathematician, programmer, investor being interviewed, and examining their _choice of words_, we can capture how they think. Sounds simple enough!
+
 ## Fields
 
-<p>I categorize fields (subjects of study) into three types: deterministic, semi-deterministic, and humanistic.</p>
-<img src="{{ site.imageurl }}Metacognition/Page1B.png" height=350 class="center"> 
+I categorize fields (subjects of study) into three types: deterministic, semi-deterministic, and humanistic.
 
-<p><b>Deterministic</b> fields are the sciences and their derived fields. Physics, mathematics, etc. These have fixed laws (of nature). </p>
+<center>
+<img src="{{ site.imageurl }}Metacognition/Page1B.png" alt="Hand-drawn diagram splitting phenomena into deterministic, semi-deterministic and humanistic fields" style="width:85%;"/>
+</center>
 
-<p><b>Semi-deterministic</b> fields just refers to computing: it has fixed laws that are modifiable by humans (e.g we make the laws via telling the computer what to do via programming).</p>
+**Deterministic** fields are the sciences and their derived fields. Physics, mathematics, etc. These have fixed laws (of nature).
 
-<p><b>Humanistic</b> fields refers to fields studying human behavior: economics, finance, history, politics, etc. The <i>laws</i> arise due to human behavior.</p>
+**Semi-deterministic** fields just refers to computing: it has fixed laws that are modifiable by humans (e.g we make the laws via telling the computer what to do via programming).
 
-I argue each field can be thought of in two ways: a <i>primal form</i>, involving linking things together as a <i>graph</i>, and a <i>dual</i> form, which is basically <i>visualising</i> something in your head. 
+**Humanistic** fields refers to fields studying human behavior: economics, finance, history, politics, etc. The _laws_ arise due to human behavior.
+
+I argue each field can be thought of in two ways: a _primal form_, involving linking things together as a _graph_, and a _dual_ form, which is basically _visualising_ something in your head.
 
 So, let's try to find the right words to express the _things_ and their _links_.
 
-A `textual representation` is how the concept appears on text, or on paper. Aka how we learn. An `innate representation` is what we need to connect the textual representation to.
+A _textual representation_ is how the concept appears on text, or on paper. Aka how we learn. An _innate representation_ is what we need to connect the textual representation to.
 
-<h2>Deterministic Framework</h2>
+## The Three Frameworks
 
-<p>Example Fields: Mathematics, natural sciences, engineering.</p>
+| Framework | The things | Key prompts |
+| --- | --- | --- |
+| [Deterministic](#deterministic) | Concepts (abstraction) and physical quantities | "Connections", "Visualisation" |
+| [Semi-Deterministic](#semi-deterministic) | Nodes (information) and edges/pipes (operations) | "Abstraction", "Decomposition" |
+| [Humanistic](#humanistic) | Actors, actions and motivations | "Perspective", "Big Picture" |
 
-There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical quantities</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
+### Deterministic
 
-A concept (more towards the field of mathematics) and a quantity (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality). 
+**Example fields** — Mathematics, natural sciences, engineering.
 
-The key skill:
+**The things** — There are two fundamental things: _concepts (abstraction)_ and _physical quantities_. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a _symbol_ and innate representation is a _visual_.
 
-* Visualising the concept or quantity
-* Connecting them together in a system.
+A concept (more towards the field of mathematics) and a quantity (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality).
+
+**The links** — They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.
 
 Another idea is that of _dependency_, whereby to understand or make connections of certain concepts, there must be a backlog graph of existing concepts that you have to build in sequential fashion, aka prerequisites.
 
-<p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
+**The key skill**
 
+* Visualising the concept or quantity.
+* Connecting them together in a system.
 
-<blockquote>
-<p>There are moments where you <i>put something together</i> and realize this is how the story has to go.</p>
-</blockquote>
-<figcaption>—Jacob Lurie, <cite><a href="https://www.youtube.com/watch?v=r_gCOs6vLzE&ab_channel=InstitutdesHautes%C3%89tudesScientifiques%28IH%C3%89S%29&t=135">Breakthrough Prize Acceptance (2:15)</a></cite></figcaption>
-<blockquote>
-<p> There is a beauty in the way things <i>fit together in an unexpected way</i>.</p>
-</blockquote>
-<figcaption>—Richard Taylor, <cite><a href="https://www.youtube.com/watch?v=r_gCOs6vLzE&ab_channel=InstitutdesHautes%C3%89tudesScientifiques%28IH%C3%89S%29&t=120">Breakthrough Prize Acceptance (2:00)</a></cite></figcaption>
-<p>Notice their choice of words: they imply connecting things together. What about the other type of <i>thing</i> aka measurements? </p>
-<blockquote>
-<p>Atoms in the coffee jiggle, which makes the cup jiggle. Heat is just jiggling spreading, which is easy to understand.</p>
-</blockquote>
-<figcaption>—Richard Feynman, <cite><a href="https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=80">Fun to Imagine (1:20)</a></cite></figcaption>
-<blockquote>
-<p> It's a mixture of partial solving of equations ... and having some sort of <i>picture</i> of what's happening that the equations saying.</p>
-</blockquote>
-<figcaption>—Richard Feynman, <cite><a href="https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=3378">Fun to Imagine (56:18)</a></cite></figcaption>
-<p>Feynman is imagining a measurement (the jiggling) and showing how that interacts with another measurement (another bunch of atoms jiggling). </p>
+What the experts say:
 
-Key prompts - "Connections", "Visualisation"
+> There are moments where you _put something together_ and realize this is how the story has to go.
+>
+> — Jacob Lurie, [Breakthrough Prize Acceptance (2:15)](https://www.youtube.com/watch?v=r_gCOs6vLzE&ab_channel=InstitutdesHautes%C3%89tudesScientifiques%28IH%C3%89S%29&t=135)
 
-<br> 
+> There is a beauty in the way things _fit together in an unexpected way_.
+>
+> — Richard Taylor, [Breakthrough Prize Acceptance (2:00)](https://www.youtube.com/watch?v=r_gCOs6vLzE&ab_channel=InstitutdesHautes%C3%89tudesScientifiques%28IH%C3%89S%29&t=120)
 
-## Semideterministic Framework
+Notice their choice of words: they imply connecting things together. What about the other type of _thing_ aka measurements?
 
-For semi-deterministic fields, which is essentially computing, a system consists of **edges/pipes (operations/tools/parts)** and **nodes (information)**. Together, they form a graph operating at an **abstraction level**.
+> Atoms in the coffee jiggle, which makes the cup jiggle. Heat is just jiggling spreading, which is easy to understand.
+>
+> — Richard Feynman, [Fun to Imagine (1:20)](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=80)
 
-The key idea is to start top down. A problem here is defined as a set of target nodes and a set of destination nodes. You want to build a system using edges/pipes to get from the target nodes to the destination nodes.
+> It's a mixture of partial solving of equations ... and having some sort of _picture_ of what's happening that the equations saying.
+>
+> — Richard Feynman, [Fun to Imagine (56:18)](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=3378)
 
-And you do this via:
+Feynman is imagining a measurement (the jiggling) and showing how that interacts with another measurement (another bunch of atoms jiggling).
 
-* **Decomposing/break** down a edge in a system into another system of nodes and edges, going to a deeper level of abstraction. 
-* **Build up** a node and edge system to be a node or edge in a higher abstraction level system.
+**Key prompts** — "Connections", "Visualisation".
+
+### Semi-Deterministic
+
+**Example fields** — Computing.
+
+**The things** — A system consists of **edges/pipes (operations/tools/parts)** and **nodes (information)**.
+
+**The links** — Together, they form a graph operating at an **abstraction level**.
+
+**The key skill** — Start top down. A problem here is defined as a set of source nodes and a set of destination nodes. You want to build a system using edges/pipes to get from the source nodes to the destination nodes. And you do this via:
+
+* **Decomposing/breaking down** an edge in a system into another system of nodes and edges, going to a deeper level of abstraction.
+* **Building up** a node and edge system to be a node or edge in a higher abstraction level system.
 
 This would be top-down thinking.
 
-<blockquote>
-Input → system (computation) → output. This is my core paradigm for understanding anything.
-</blockquote>
-<figcaption>—George Hotz, <cite><a href="https://www.youtube.com/watch?v=N2bXEUSAiTI&ab_channel=georgehotzarchive&t=3240">What is Programming? (Noob Lessons!) (54:00)</a></cite></figcaption>
-<blockquote>
-There's a relatively good understanding of <i>abstraction layers</i>. Atoms, silicon, transistors, logic gates, functional units, processing elements, instruction sets, languages - abstraction layers from the atom to the datacenter. 
-</blockquote>
-<figcaption>—Jim Keller, <cite><a href="https://www.youtube.com/watch?v=Nb2tebYAaOA&ab_channel=LexFridman&t=250">Jim Keller | Lex Fridman Podcast #70 (4:10)</a></cite></figcaption>
-<blockquote>
-Being able to see something at lots of levels and <i>go between them smoothly</i> seems to be more pronodunced in people that resonate with computing
-</blockquote>
-<figcaption>—Donald Knuth, <cite><a href="https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553">Donald Knuth | Lex Fridman Podcast #62 (9:13)</a></cite></figcaption>
+What the experts say:
 
+> Input → system (computation) → output. This is my core paradigm for understanding anything.
+>
+> — George Hotz, [What is Programming? (Noob Lessons!) (54:00)](https://www.youtube.com/watch?v=N2bXEUSAiTI&ab_channel=georgehotzarchive&t=3240)
 
-<br>
-<h2>Humanistic Framework</h2>
+> There's a relatively good understanding of _abstraction layers_. Atoms, silicon, transistors, logic gates, functional units, processing elements, instruction sets, languages - abstraction layers from the atom to the datacenter.
+>
+> — Jim Keller, [Jim Keller \| Lex Fridman Podcast #70 (4:10)](https://www.youtube.com/watch?v=Nb2tebYAaOA&ab_channel=LexFridman&t=250)
 
-The humanistic framework is concerned with modelling human behavior at a macro scale (aka economics/markets, history, politics). The idea is to understand the big picture, the situation, by somehow looking at things evolving from the perspective of multiple actors, all at once!
+> Being able to see something at lots of levels and _go between them smoothly_ seems to be more pronounced in people that resonate with computing.
+>
+> — Donald Knuth, [Donald Knuth \| Lex Fridman Podcast #62 (9:13)](https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553)
 
-* **Humans/Players/Actors** - Frame of reference. Bunch of humans. Who. Perspective, shoes, empathy, imagination.
-* **Actions** - What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation). 
-* **Motivation** - Why? Intended outcome, context.
+**Key prompts** — "Abstraction", "Decomposition".
 
+### Humanistic
 
-**Non-Precise Visualisation** - Visualise the entire situation happening. Map view. Flows. Visualise matter, substance and force. This is what Yet Another Commodity Guy does to an extremely precise level.
+**Example fields** — Economics/markets, finance, history, politics.
 
-**Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
+**The things** — The humanistic framework is concerned with modelling human behavior at a macro scale. The idea is to understand the big picture, the situation, by somehow looking at things evolving from the perspective of multiple actors, all at once!
 
-**Data Organisation/Routines** - How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
+* **Humans/Players/Actors** — Frame of reference. Bunch of humans. Who. Perspective, shoes, empathy, imagination.
+* **Actions** — What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation).
+* **Motivation** — Why? Intended outcome, context.
 
-**Forecasting/Understanding the Big Picture** - What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
+The key skills here:
 
+**Non-Precise Visualisation** — Visualise the entire situation happening. Map view. Flows. Visualise matter, substance and force. This is what Yet Another Commodity Guy does to an extremely precise level.
 
+**Data Origination** — The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system.
+
+**Data Organisation/Routines** — How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
+
+**Forecasting/Understanding the Big Picture** — What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
+
+What the experts say:
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+**Key prompts** — "Perspective", "Big Picture".
 
 ## Intelligence and Blending the Frameworks
 
@@ -136,6 +158,6 @@ Each person has a different calibration in depth and width, applied to different
 
 Whenever approaching any cognitive task, it is important to remember this idea of blending the frameworks in the cross section and in the time series (or depth-wise).
 
-<h2>Conclusion </h2>
+## Conclusion
 
-Clearly, complexity or understanding it is about linking things together and having a good mental picture of them. But different discplines have different ways to approach this. By observing interviews of experts and their thought process, we can put the right words to them and try to adapt them so we can learn faster.
+Clearly, complexity or understanding it is about linking things together and having a good mental picture of them. But different disciplines have different ways to approach this. By observing interviews of experts and their thought process, we can put the right words to them and try to adapt them so we can learn faster.
