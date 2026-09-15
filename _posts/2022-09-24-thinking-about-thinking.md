@@ -115,7 +115,7 @@ The humanistic framework is concerned with modelling human behavior at a macro s
 * **Motivation** - Why? Intended outcome, context.
 
 
-**Non-Precise Visualisation** - Essentially visualising some people doing something but at a big picture level. There is a skill to this. Different from precise visualisation (precise physics are overlooked here). Top down map view with zoom (who where what)
+**Non-Precise Visualisation** - Visualise the entire situation happening. Physically. Easy to say, hard to do.
 
 **Data Origination** - The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system. 
 
