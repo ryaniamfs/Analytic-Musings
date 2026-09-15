@@ -136,7 +136,7 @@ What the experts say:
 
 The key skills here:
 
-**Non-Precise Visualisation** — Visualise the entire situation happening. Map view. Flows. Visualise matter, substance and force. This is what Yet Another Commodity Guy does to an extremely precise level.
+**Non-Precise Visualisation** — Visualise the entire situation happening. "Where" is most important. Map view. Flows. Visualise matter, substance, force and actors. This is what Yet Another Commodity Guy does to an extremely precise level.
 
 **Data Origination** — The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system.
 
