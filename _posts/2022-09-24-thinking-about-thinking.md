@@ -138,7 +138,7 @@ What the experts say:
 
 **Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model (aka your mind).
 
-**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by enumerating, cycling through the various actors, their actions and motivations, visualising it out via NPV. 
+**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by enumerating, cycling through the various actors, their actions and motivations, visualising it out via NPV. Your mind cannot multi-process, so fix an actor, move to the next.
 
 **Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
 
