@@ -134,11 +134,11 @@ What the experts say:
 
 **Non-Precise Visualisation** — Visualise the entire situation happening. "Where" is most important. Map view. Flows. Visualise matter, substance, force and actors. This is what Yet Another Commodity Guy does to an extremely precise level.
 
-**Data Origination** — The system/situation consists of very complex actors doing actions. High dimensional. As such, want to get as much variance in datasets to try and **span** as much as possible to capture as much human behavior in the system.
+**Data Origination** — Curating a wide, spanning, diverse dataset that spans as much as the complex high dimensional situation of the world.
 
 **Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model (aka your mind).
 
-**Nowcasting - Understanding the Big Picture** — Understanding the current situation and history via the who/what/when/where/how/why. 
+**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by enumerating, cycling through the various actors, their actions and motivations, visualising it out via NPV. 
 
 **Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
 
