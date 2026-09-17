@@ -126,8 +126,6 @@ What the experts say:
 
 ### Humanistic
 
-**Example fields** — Economics/markets, finance, history, politics.
-
 **Data** — The humanistic framework is concerned with modelling human behavior at a macro scale. To which data can be organized like so:
 
 * **Humans/Players/Actors** — Who. Humans involved here. Perspective, shoes, empathy, imagination.
@@ -140,7 +138,9 @@ What the experts say:
 
 **Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model (aka your mind).
 
-**Forecasting/Understanding the Big Picture** — What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
+**Nowcasting - Understanding the Big Picture** — Understanding the current situation and history via the who/what/when/where/how/why. 
+
+**Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
