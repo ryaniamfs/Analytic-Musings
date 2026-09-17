@@ -126,7 +126,7 @@ What the experts say:
 
 ### Humanistic
 
-**Data** — The humanistic framework is concerned with modelling human behavior at a macro scale. To which data can be organized like so:
+**Nodes** — The humanistic framework is concerned with modelling human behavior at a macro scale. To which data are nodes like so:
 
 * **Humans/Players/Actors** — Who. Humans involved here. Perspective, shoes, empathy, imagination.
 * **Actions** — What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation).
@@ -138,7 +138,7 @@ What the experts say:
 
 **Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model (aka your mind).
 
-**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by enumerating, cycling through the various actors, their actions and motivations, visualising it out via NPV. Your mind cannot multi-process, so fix an actor, move to the next.
+**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by making connections between the various nodes above: cycling through the actors, their actions and motivations, visualising it out via NPV. Your mind cannot multi-process, so fix an actor, move to the next.
 
 **Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
 
