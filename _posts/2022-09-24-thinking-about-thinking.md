@@ -142,7 +142,7 @@ The key skills here:
 
 **Data Organisation/Routines** — How you ingest, organize and visualise data (tabular or verbal!) into your workflows. Good organisation, visualisation, and habits/processes/routines (scrape, organize, curate, process) in doing so. Systematic in process.
 
-**Forecasting/Understanding the Big Picture** — What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
+**Forecasting/Understanding the Big Picture** — What you try to do here is to forecast or understand how the big picture or situation will play out over a long time horizon at a very macro level. To avoid the butterfly effect, you need to fix assumptions/reactions, aka assuming actors will do this action. This reduces degrees of freedom to make the problem tractable. From commodities X, two people who consistently exhibit this style of thinking to learn from: John Arnold and Gavin McKracken.
 
 What the experts say:
 
