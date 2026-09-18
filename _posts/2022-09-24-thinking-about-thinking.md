@@ -10,6 +10,7 @@ In this post, I explore the notion that we can observe experts in different fiel
 A _field_ is just an area of study. My idea is that understanding complexity is about linking things together, but each field has different _things_, and each thing has its own type of _link_. As we link things together, we can build a clearer visualisation in our head.
 
 ## The Right Words
+----
 
 I posit how to think about these _things_ and _links_ can be captured by invoking the right _word_ or _syntax_.
 
@@ -25,6 +26,8 @@ I posit how to think about these _things_ and _links_ can be captured by invokin
 Thus, by _observing_ experts in respective fields, like a scientist, mathematician, programmer, investor being interviewed, and examining their _choice of words_, we can capture how they think. Sounds simple enough!
 
 ## Fields
+
+----
 
 I categorize fields (subjects of study) into three types: deterministic, semi-deterministic, and humanistic.
 
@@ -45,6 +48,8 @@ So, let's try to find the right words to express the _things_ and their _links_.
 A _textual representation_ is how the concept appears on text, or on paper. Aka how we learn. An _innate representation_ is what we need to connect the textual representation to.
 
 ## The Three Frameworks
+
+----
 
 | Framework | The things | Key prompts |
 | --- | --- | --- |
@@ -143,6 +148,8 @@ What the experts say:
 **Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+What is the link between the humanistic and the deterministic? Humanistic is simply a renormalisation of the deterministic framework (aka zoomed out at a much more macro level). Imagine you could Laplace's demon every neuron firing to form a thought. 
 
 ## Intelligence and Blending the Frameworks
 
