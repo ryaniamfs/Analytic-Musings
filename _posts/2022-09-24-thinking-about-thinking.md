@@ -131,25 +131,23 @@ What the experts say:
 
 ### Humanistic
 
-**Nodes** — The humanistic framework is concerned with modelling human behavior at a macro scale. To which data are nodes like so:
+**Example Fields** - Anything to do with forecasting or understanding human behavior at a macro level.
 
-* **Humans/Players/Actors** — Who. Humans involved here. The ability to jump into the perspective of someone else. To put yourself in their situation/mind. 
-* **Actions** — What/when/where/how. Non-precise visualisation (top-down map view). Effects (assigning numbers - comparison and aggregation).
-* **Motivation** — Why? Intended outcome, context.
+**The things** - An actor performing an action: **who, when, where, what, how, why**. To understand a node: we use non-precise visualisation - a technique to visualise actors nodes from a top-down map view.
 
-**Non-Precise Visualisation** — Visualise the entire situation happening. "Where" is most important. Map view. Flows. Visualise matter, substance, force and actors. This is what Yet Another Commodity Guy does to an extremely precise level.
+**The links** - A node (actor performing action) triggers a reaction function causing other actors to perform their own actions. The trick is to form a causal chain of how to process nodes and connect them together to understand how situations evolve and forecast them. Node triggers nodes. 
 
 **Data Origination** — Curating a wide, spanning, diverse dataset that spans as much as the complex high dimensional situation of the world.
 
-**Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model (aka your mind).
+**Data Organisation/Routines** — How you organize/categorize the data via the above schema. Then you feed it into your mental model/mind to make connections.
 
-**Nowcasting - Understanding the Big Picture** — Understanding the current situation/history. Do this by cycling through the various actors perspectives, connecting their actions and motivations, visualising it out via NPV. Your mind cannot multi-process, so fix an actor, move to the next.
+**Connecting** - We can form a causal link of nodes and forecast what connections will happen. 
 
-**Forecasting** - Projecting how the situation will evolve, aka how actors will react and why.
+An example is markets. We react to the nodes above, try and connect the nodes that ultimately lead to the price of an asset.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-What is the link between the humanistic and the deterministic? Humanistic is simply a renormalisation of the deterministic framework (aka zoomed out at a much more macro level). Imagine you could Laplace's demon every neuron firing to form a thought. 
+**Humanistic > renormalisation > deterministic** - Humanistic is simply a renormalisation (fancy word for zooming out) of the deterministic framework. Why? Laplace's demon-ing every neuron firing to form a thought isn't going to work. So we renormalise. 
 
 ## Intelligence and Blending the Frameworks
 
