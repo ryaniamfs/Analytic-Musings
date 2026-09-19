@@ -143,7 +143,7 @@ What the experts say:
 
 **Connecting** - We can form a causal link of nodes and forecast what connections will happen. 
 
-An example is markets. We react to the nodes above, try and connect the nodes that ultimately lead to the price of an asset.
+An example is markets. We react to the nodes above, try and connect the nodes that ultimately lead to the price of an asset. A price of the commodity is ultimately supply and demand. A price of a stock is future cash flows. 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
