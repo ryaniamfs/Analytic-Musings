@@ -133,7 +133,7 @@ What the experts say:
 
 **Example Fields** - Anything to do with forecasting or understanding human behavior at a macro level.
 
-**The things** - An actor performing an action: **who (perspective), when (time), where (spatial), what/how (action), why (motivation/intended outcome)**. To understand a node: we use non-precise visualisation - a technique to visualise actors nodes from a top-down map view. 
+**The things** - An actor performing an action: **who (perspective), when (time), where (spatial), what/how (action), why (motivation/intended outcome)**. Most important is the perspective, to put yourself in another persons mind. To understand a node: we use non-precise visualisation - a technique to visualise actors nodes from a top-down map view. 
 
 **The links** - A node (actor performing action) triggers a reaction function causing other actors to perform their own actions. The trick is to form a causal chain of how to process nodes and connect them together to understand how situations evolve and forecast them. Node triggers nodes. 
 
