@@ -143,9 +143,18 @@ What the experts say:
 
 **Connecting** - We can form a causal link of nodes and forecast what connections will happen. 
 
-An example is markets. We react to the nodes above, try and connect the nodes that ultimately lead to the price of an asset. A price of the commodity is ultimately supply and demand. A price of a stock is future cash flows. 
 
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote>
+
+The above is Derman explaining the "who" or perspective part of a node. Now, below is an example of markets. We react to the nodes above, try and connect the nodes that ultimately lead to the price of an asset. A price of the commodity is ultimately supply and demand. A price of a stock is future cash flows. 
+
+
+<figure style="margin:0">
+<blockquote class="twitter-tweet tw-align-center" data-dnt="true"><p lang="en" dir="ltr">Apprentice: &#8220;Master, they keep trying to make me learn a fixed set of rules, math and reaction functions to events and price variability but every single day the path is different in some way to the day before.<br>Then, the next day, when pressed for an explanation, they then say &#8220;&#8230; ahhh but you are not considering XYZ..&#8221;<br><br>It&#8217;s almost like I need to ignore the best and brightest, their fixed dogma and inflexibility, I need to find my own way&#8221;<br><br>Master: &#8220;Look in your hand young Apprentice- you have taken the stone from my hand.&#8221;</p>&mdash; Anyon (@AnyonCurve) <a href="https://x.com/AnyonCurve/status/2099561265022607777?ref_src=twsrc%5Etfw">September 14, 2026</a></blockquote>
+<figcaption style="text-align:center">The humanistic framework applied to markets.</figcaption>
+</figure>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 **Humanistic > renormalisation > deterministic** - Humanistic is simply a renormalisation (fancy word for zooming out) of the deterministic framework. Why? Laplace's demon-ing every neuron firing to form a thought isn't going to work. So we renormalise. 
 
