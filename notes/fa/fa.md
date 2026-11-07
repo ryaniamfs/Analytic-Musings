@@ -34,6 +34,8 @@ These factors can be observed and their contributions extracted by watching game
 
 I describe these factors below. These are thematic and concern different aspects of a football game. For example, the fans and the weather and the stadium is an environment factor.
 
+Thus, if we were to watch each game and do a factor decomposition properly, I believe the patterns will start to emerge over time. And this factor decomposition is best done live, to avoid posthumous lookahead bias.
+
 ## Priors and Updating
 
 Another problem in football betting is the problem of how fast one updates priors given new evidence. For example, if a manager tweaks a tactic/player selection and this factor causes his team to perform badly, how fast do we update our priors that this team will continue to perform badly, or do we consider it a one-off?
