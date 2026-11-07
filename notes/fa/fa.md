@@ -175,6 +175,10 @@ Variants:
 
 **Out-of-Position Index** — Penalize managers for playing players out of position. This means we need to detect how much to penalize per player, and have a view on how well each player performs per position usually. And out-of-sample (aka new tryout matches) need to be weighed! Say a player is played OOP for the first time this season. How do we price that?
 
+### Player Profiling
+
+Each player has a unique profile, skillset, strengths and weaknesses. It is important to understand how to profile each player. Together, the player profiles make player selection. An easy way to bootstrap a profile is to hop on a reddit or forum and read what the dedicated fans of a team think of the player - they watch him every week. They are informed parties.
+
 ### Availability and Injury
 
 **Injuries cost points** — In theory, injuries to key players can damage outcomes. AFCON is basically an injury.
