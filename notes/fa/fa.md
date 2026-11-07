@@ -188,6 +188,13 @@ Variants:
 
 **Example** — Need to find examples where teams bust a gut early in the season and then collapse towards the tail end (e.g. the Arteta and Klopp Arsenal April collapses). Usually accompanied by a congested schedule and injury pileup.
 
+
+### Environment
+
+For some god damn reason, a weak team playing a stronger team, at night, home, and it rains, basically gives the weaker team a HUGE favour. Maybe it's because the pitch gets slippery and the weak team is filled with grafters/hustlers while the stronger team players are more technical. So when it gets rainy, the grafters gain motivation and the technical guys get lazy. This sounds crazy, but we've observed it twice this season. 
+
+26/27 Leeds vs Newcastle, Forest vs City.
+
 ### Motivation
 
 **Incentives diverge late in the season** — Some kind of motivation score differential. Nearing the end of the season, say the last 5 games (GW34), we have teams with increased and decreased motivation.
