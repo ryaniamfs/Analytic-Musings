@@ -5,7 +5,6 @@ category: FA
 date: 2026-05-26
 ---
 
-> **Status — May 2026.** I am building out my data pipelines/datasets/scrapers first, which are almost done (though they will expand on a rolling basis as I have more ideas). I am then going to do signal research to test the ideas below. My aim is to start by 26/27 (aka September), fundamental 2x1 across the big 5 leagues. So the research and backtesting will be done across the World Cup and pre-season.
 
 ## Overview
 
@@ -26,6 +25,14 @@ The key idea is: how much signal does past information of football matches have 
 The core problem is: how do we translate football wisdom or tropes into statistical signals? Tropes that we see play out in matches, before games, across seasons etc. From being a dedicated fan of a team.
 
 The bottom line is, I believe we can see with our eyes and common sense that there are certain things that affect the outcomes of matches. We can observe certain **narratives** or **subplots** playing out over the course of a season. My question is: can they be quantified?
+
+## Factors
+
+Much like returns, I believe the outcomes of football matches, can be decomposed into thematic drivers called factors. If we can reverse engineer each game into its factor decomposition and weighting, we can learn how different factors influence outcomes in games.
+
+These factors can be observed and their contributions extracted by watching games and doing **attribution**. In this game, this factor was like so, it resulted in this outcome. Causal mechanisms. Patterns.
+
+I describe these factors below. These are thematic and concern different aspects of a football game. For example, the fans and the weather and the stadium is an environment factor.
 
 ## Modelling Problems
 
