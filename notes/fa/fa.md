@@ -42,6 +42,8 @@ Thus, if we were to watch each game and do a factor decomposition properly, I be
 
 Another problem in football betting is the problem of how fast one updates priors given new evidence. For example, if a manager tweaks a tactic/player selection and this factor causes his team to perform badly, how fast do we update our priors that this team will continue to perform badly, or do we consider it a one-off?
 
+A generalisation of priors and updating into live trading is, given new information when watching a live game, how do you price and evalute your priors in-game? And then make decisions accordingly, on-the-fly?
+
 ### Independent Bets
 
 Unlike stocks, football matches are independent bets. This implies, given the factors above, that each team at any point in time has the same type of factors driving their outcomes, but all with different content and weights.
