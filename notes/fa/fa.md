@@ -16,7 +16,9 @@ For football analytics, I believe there are 3 main problems:
 * **Counterfactuals (Neyman-Rubin)** — When we look at stats, they are context dependent (see the first point). The team affects the player's stats and the player's individual contributions affect the team.
 * **The Eye Test** — How do we quantify what we see with our eyes into statistics? And vice versa?
 
-## Results Betting
+## Key Principles
+
+### The Core Problem
 
 The core would be a **predictive model** that takes in features and outputs signals/predictions, feeding into another **trading layer (risk management/bet sizing)** plus a discretionary layer of adjustments (e.g. from watching games and reading fan forums to understand the situation) to output trades, and we **rebalance/bet weekly**.
 
@@ -26,7 +28,7 @@ The core problem is: how do we translate football wisdom or tropes into statisti
 
 The bottom line is, I believe we can see with our eyes and common sense that there are certain things that affect the outcomes of matches. We can observe certain **narratives** or **subplots** playing out over the course of a season. My question is: can they be quantified?
 
-## Factors
+### Factors
 
 Much like returns, I believe the outcomes of football matches, can be decomposed into thematic drivers called factors. If we can reverse engineer each game into its factor decomposition and weighting, we can learn how different factors influence outcomes in games.
 
@@ -36,13 +38,17 @@ I describe these factors below. These are thematic and concern different aspects
 
 Thus, if we were to watch each game and do a factor decomposition properly, I believe the patterns will start to emerge over time. And this factor decomposition is best done live, to avoid posthumous lookahead bias.
 
-## Priors and Updating
+### Priors and Updating
 
 Another problem in football betting is the problem of how fast one updates priors given new evidence. For example, if a manager tweaks a tactic/player selection and this factor causes his team to perform badly, how fast do we update our priors that this team will continue to perform badly, or do we consider it a one-off?
 
-## Independent Bets
+### Independent Bets
 
 Unlike stocks, football matches are independent bets. This implies, given the factors above, that each team at any point in time has the same type of factors driving their outcomes, but all with different content and weights.
+
+### The Fundamental Law of Active Investing
+
+The problem is that if you do discretionary, your mental bandwidth to track each teams factor decomposition over time diminishes. You only have this amount of time to watch the games, so one heuristic is to use fan forums to bootstrap your decomposition. You leverage their informed views to form your own.
 
 ## Modelling Problems
 
