@@ -135,7 +135,7 @@ What the experts say:
 
 **The things** - An actor performing an action: **who (perspective), when (time), where (spatial), what/how (action/quantified effect), why (motivation/intended outcome)**. Most important is the perspective, to put yourself in another persons mind. To understand a node: we use non-precise visualisation - a technique to visualise actors nodes from a top-down map view. 
 
-**The links** - A node (actor performing action) triggers a reaction function causing other actors to perform their own actions. The trick is to form a causal chain of how to process nodes and connect them together to understand how situations evolve and forecast them. Node triggers nodes. 
+**The links** - A node (actor performing action) triggers a reaction function causing other actors to perform their own actions. The trick is to form a causal chain of how to process nodes and connect them together to understand how situations evolve and forecast them. Node triggers nodes. Do it across time, in the past and to the present, and you understand why history unfolded the way it is. Do it in the future, and you have a view, or a forecast, of how a situation evolves.
 
 **Data Origination** — Curating a wide, spanning, diverse dataset that spans as much as the complex high dimensional situation of the world.
 

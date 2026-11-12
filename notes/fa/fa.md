@@ -187,6 +187,8 @@ Variants:
 
 Each player has a unique profile, skillset, strengths and weaknesses. It is important to understand how to profile each player. Together, the player profiles make player selection. An easy way to bootstrap a profile is to hop on a reddit or forum and read what the dedicated fans of a team think of the player - they watch him every week. They are informed parties.
 
+Being able to look at a team throughout a season and have a feel of what the best setup is per game across the different positions is a valuable skill, and is player profiling.
+
 ### Availability and Injury
 
 **Injuries cost points** — In theory, injuries to key players can damage outcomes. AFCON is basically an injury.
